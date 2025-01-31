@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js" , 
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [
@@ -15,6 +15,7 @@
   "author": "Nikhil Tiwari",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
   "devDependencies": {

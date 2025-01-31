@@ -72,14 +72,14 @@ app.listen(port, () => {
 
 
 
-
+import 'dotenv/config'
 
 
 // Importing Express
 import express from "express";
 
 const app = express(); // Initializing Express App
-const port = 3000; // Defining the server port
+const port = process.env.PORT || 3000; // Defining the server port
 
 // Middleware to parse incoming JSON requests
 app.use(express.json());
